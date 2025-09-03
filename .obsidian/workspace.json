@@ -11,14 +11,17 @@
             "id": "a5d0ad7342ffa1c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "Data warehouse/Chương 1/Chương 1.canvas",
+                "viewState": {
+                  "x": 951.9609899328859,
+                  "y": 50.88020134228185,
+                  "zoom": -1.2238267953984576
+                }
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "lucide-layout-dashboard",
+              "title": "Chương 1"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Chương 1 Tổng quan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Chương 1 Tổng quan"
             }
           },
           {
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Chương 1 Tổng quan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Chương 1 Tổng quan"
             }
           },
           {
@@ -142,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md",
+                "file": "Chương 1 Tổng quan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Chương 1 Tổng quan"
             }
           }
         ]
@@ -171,10 +174,14 @@
   },
   "active": "a5d0ad7342ffa1c9",
   "lastOpenFiles": [
+    "Data warehouse/Chương 1/Chương 1 Tổng quan về kho dữ liệu và hệ hỗ trợ ra quyết định.pdf",
+    "Data warehouse/Chương 1/Chương 1 Tổng quan.md",
+    "Data warehouse/Chương 1/Chương 1.canvas",
+    "Data warehouse/Chương 1/msoE82E.tmp",
+    "Data warehouse/Chương 1",
+    "Data warehouse",
     "audio/Chương 1 Tổng quan.m4a",
-    "Untitled.md",
     "audio",
-    "README.md",
-    "Untitled"
+    "README.md"
   ]
 }
