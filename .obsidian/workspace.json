@@ -4,27 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "5097b005c7c66054",
+        "id": "90296aed33dd3cbf",
         "type": "tabs",
         "children": [
           {
-            "id": "a5d0ad7342ffa1c9",
+            "id": "f490d5df60590eab",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "pdf",
               "state": {
-                "file": "Data warehouse/Chương 1/Chương 1.canvas",
-                "viewState": {
-                  "x": 951.9609899328859,
-                  "y": 50.88020134228185,
-                  "zoom": -1.2238267953984576
-                }
+                "file": "Big Data/Chap2/Ch7_Data Streaming tools (1).pdf"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Chương 1"
+              "icon": "lucide-file-text",
+              "title": "Ch7_Data Streaming tools (1)"
+            }
+          },
+          {
+            "id": "24a66bf1bd35de9b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Big Data/Chap3/MapReduce.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "MapReduce"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "9bd03e722b0168a3",
@@ -172,16 +180,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "a5d0ad7342ffa1c9",
+  "active": "24a66bf1bd35de9b",
   "lastOpenFiles": [
-    "Data warehouse/Chương 1/Chương 1 Tổng quan về kho dữ liệu và hệ hỗ trợ ra quyết định.pdf",
+    "Big Data/Chap3/Spark.pdf",
+    "Big Data/Chap3/MapReduce.pdf",
+    "Big Data/Chap2/Data streaming.md",
+    "Big Data/Chap2/Ch7_Data Streaming tools (1).pdf",
+    "Big Data/Chap2/Ch2_Data Streaming (1).pdf",
+    "Big Data/Chap1/Ch1_Big Data Intro.pdf",
+    "Big Data/Chap1/Introduction.md",
+    "Computer vision/01_Introduction.pdf",
+    "Computer vision/02_LocalProcessing.md",
+    "Data warehouse/pipeline.canvas",
+    "Data warehouse/Pre-training Multi-task Contrastive Learning Models for Scientific Literature Understanding.md",
+    "Data warehouse/PMC-Patients Clinical Decision Support with Patient Summaries.md",
+    "Computer vision/CycleGan.md",
+    "Data warehouse/Ý tưởng dự án PAR (Patient–Article Retrieval trong PMC).md",
+    "Computer vision/4_5_1_Feature.pdf",
+    "Computer vision/4_5_2_Corners.pdf",
+    "Computer vision/4_5_3_DescribeMatch.pdf",
+    "Computer vision/4_5_3DescribeMatch.pdf",
+    "Computer vision/4_5_2Corners.pdf",
+    "().md",
     "Data warehouse/Chương 1/Chương 1 Tổng quan.md",
     "Data warehouse/Chương 1/Chương 1.canvas",
-    "Data warehouse/Chương 1/msoE82E.tmp",
-    "Data warehouse/Chương 1",
-    "Data warehouse",
-    "audio/Chương 1 Tổng quan.m4a",
-    "audio",
+    "Data warehouse/Chương 2/Chương 2.md",
     "README.md"
   ]
 }

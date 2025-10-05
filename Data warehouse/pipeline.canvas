@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"fd2fbdb49e69f68a","type":"group","x":-585,"y":-300,"width":646,"height":445,"label":"MHA"},
+		{"id":"8a183255ff5faf07","type":"text","text":"dựa theo file PMC-Patients.json, patient2article_relevance.json\n--> mối liên kết giữa bài báo, bệnh nhân (Link Prediction)","x":-514,"y":40,"width":555,"height":85},
+		{"id":"ce8a023a4ae7c2cc","type":"text","text":"Lưu vector vô DB","x":-361,"y":220,"width":250,"height":60},
+		{"id":"ada85bcc8f42d8cb","type":"text","text":"Dùng cái mô hình gì đó (Bi-Encoder) để embed cục paper","x":-565,"y":-280,"width":250,"height":100},
+		{"id":"b557869a2d8ccd94","type":"text","text":"Cục embed + label --> điều chỉnh vị trí trong không gian\n(dựa theo task classification) (phân cụm, gán nhãn)","x":-493,"y":-80,"width":514,"height":66},
+		{"id":"cd0e4c892cb0e27c","type":"text","text":"corpus.jsonl","x":-515,"y":-640,"width":150,"height":60},
+		{"id":"757cfdf6be89c96a","type":"text","text":"{[CLS] {title} [SEP] {abstract} [SEP]}\n(cục paper)","x":-600,"y":-491,"width":320,"height":61},
+		{"id":"3495679b5c5b6817","type":"text","text":"PMID2Mesh.json","x":-120,"y":-640,"width":180,"height":60},
+		{"id":"ce2320a760fc220d","type":"text","text":"Label cho cái cục trên","x":-155,"y":-490,"width":250,"height":60},
+		{"id":"a452dc680454bd47","type":"text","text":"elastic","x":124,"y":-219,"width":250,"height":60},
+		{"id":"dd0fb9ea7255a0e1","type":"text","text":"Stage 1: Retrieval Bi-Encoder + zero-shot","x":-251,"y":420,"width":371,"height":60},
+		{"id":"58a8628eb9e10d4b","type":"text","text":"Stage 2: Rerank cross-encoder","x":-220,"y":540,"width":310,"height":60},
+		{"id":"01c40c98eda79f01","type":"text","text":"Đánh giá MRR, P@10, nDCG@10, nDCG@10, theo cái code của repo chính thức của pmc nha","x":-579,"y":700,"width":438,"height":60},
+		{"id":"d9280100072a0a48","type":"text","text":"Chat, hiển thị app","x":137,"y":693,"width":250,"height":60},
+		{"id":"6e3b011fcb90655e","type":"text","text":"Collection corpus\nvector: {[CLS] {title} [SEP] {abstract} [SEP]}\nid bài báo\n\n","x":-860,"y":250,"width":420,"height":110},
+		{"id":"eb88f739855a5ef2","type":"text","text":"query mô tả bệnh nhân","x":-35,"y":220,"width":250,"height":60},
+		{"id":"7b47861267b20479","type":"text","text":"Lưu lịch sử trò chuyện, thông tin bệnh nhân, lịch sử khám","x":89,"y":820,"width":346,"height":70},
+		{"id":"affd185ae1197218","type":"text","text":"Lưu thông tin lại Postgres","x":387,"y":360,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"0cbe09f1d65ef4fa","fromNode":"cd0e4c892cb0e27c","fromSide":"bottom","toNode":"757cfdf6be89c96a","toSide":"top"},
+		{"id":"8ad1957b71b2a539","fromNode":"757cfdf6be89c96a","fromSide":"bottom","toNode":"ada85bcc8f42d8cb","toSide":"top"},
+		{"id":"3e4f2ad89461d3ab","fromNode":"3495679b5c5b6817","fromSide":"bottom","toNode":"ce2320a760fc220d","toSide":"top"},
+		{"id":"e7f5f07028065224","fromNode":"ada85bcc8f42d8cb","fromSide":"bottom","toNode":"b557869a2d8ccd94","toSide":"top"},
+		{"id":"a93ede76dc40519c","fromNode":"ce2320a760fc220d","fromSide":"bottom","toNode":"b557869a2d8ccd94","toSide":"top"},
+		{"id":"8cc7560942ab2604","fromNode":"b557869a2d8ccd94","fromSide":"bottom","toNode":"8a183255ff5faf07","toSide":"top"},
+		{"id":"586912eb6dafd40e","fromNode":"8a183255ff5faf07","fromSide":"bottom","toNode":"ce8a023a4ae7c2cc","toSide":"top"},
+		{"id":"f5d06def909e3155","fromNode":"ce8a023a4ae7c2cc","fromSide":"bottom","toNode":"dd0fb9ea7255a0e1","toSide":"top"},
+		{"id":"6223648160957be1","fromNode":"eb88f739855a5ef2","fromSide":"bottom","toNode":"dd0fb9ea7255a0e1","toSide":"top"},
+		{"id":"ef54af33a0e9a028","fromNode":"dd0fb9ea7255a0e1","fromSide":"bottom","toNode":"58a8628eb9e10d4b","toSide":"top"},
+		{"id":"acb12d9cbb4b2a3f","fromNode":"58a8628eb9e10d4b","fromSide":"bottom","toNode":"01c40c98eda79f01","toSide":"top"},
+		{"id":"0df76433c70729b8","fromNode":"ce2320a760fc220d","fromSide":"bottom","toNode":"a452dc680454bd47","toSide":"top"},
+		{"id":"649d87ce47fe8a6d","fromNode":"ce8a023a4ae7c2cc","fromSide":"left","toNode":"6e3b011fcb90655e","toSide":"right","fromEnd":"arrow"},
+		{"id":"80b4c579d4dd1552","fromNode":"58a8628eb9e10d4b","fromSide":"bottom","toNode":"d9280100072a0a48","toSide":"top"},
+		{"id":"be294ff3bcac01ff","fromNode":"eb88f739855a5ef2","fromSide":"bottom","toNode":"affd185ae1197218","toSide":"top"},
+		{"id":"6abdb7081db246a8","fromNode":"d9280100072a0a48","fromSide":"bottom","toNode":"7b47861267b20479","toSide":"top"},
+		{"id":"c52ccb65705661c5","fromNode":"affd185ae1197218","fromSide":"right","toNode":"8a183255ff5faf07","toSide":"right","label":"Lưu thông tin bệnh nhân mới"}
+	]
+}
