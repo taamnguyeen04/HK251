@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "90296aed33dd3cbf",
+        "id": "a2b9b7153789cc99",
         "type": "tabs",
         "children": [
           {
-            "id": "f490d5df60590eab",
+            "id": "c8b6fc4ad49b3f1e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Big Data/Chap2/Ch7_Data Streaming tools (1).pdf"
+                "file": "Computer vision/C4/Edges and Lines.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Ch7_Data Streaming tools (1)"
-            }
-          },
-          {
-            "id": "24a66bf1bd35de9b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Big Data/Chap3/MapReduce.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "MapReduce"
+              "icon": "lucide-file",
+              "title": "Edges and Lines"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,27 +169,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "24a66bf1bd35de9b",
+  "active": "c8b6fc4ad49b3f1e",
   "lastOpenFiles": [
-    "Big Data/Chap3/Spark.pdf",
-    "Big Data/Chap3/MapReduce.pdf",
-    "Big Data/Chap2/Data streaming.md",
-    "Big Data/Chap2/Ch7_Data Streaming tools (1).pdf",
-    "Big Data/Chap2/Ch2_Data Streaming (1).pdf",
-    "Big Data/Chap1/Ch1_Big Data Intro.pdf",
-    "Big Data/Chap1/Introduction.md",
-    "Computer vision/01_Introduction.pdf",
+    "Computer vision/C4/4_5_1_Feature.pdf",
+    "Computer vision/C4/4_5_2_Corners.pdf",
+    "Computer vision/C4/Edges and Lines.md",
+    "Computer vision/C2/02_LocalProcessing.md",
+    "Computer vision/C3/unsharp.py",
+    "Computer vision/C3/alo.py",
+    "Computer vision/C3/Image Derivatives.md",
+    "Computer vision/C3/03_ImageDerivatives.pdf",
+    "Computer vision/C2/local_processing.py~",
+    "Computer vision/C2/test.py",
+    "Computer vision/C2/02_LocalProcessing.pdf",
+    "Big Data/Chap3/Spark.md",
     "Computer vision/02_LocalProcessing.md",
+    "Computer vision/C1/02_LocalProcessing.md",
+    "Computer vision/C2/03_ImageDerivatives.pdf",
+    "Computer vision/C1/01_Introduction.pdf",
+    "Computer vision/C6",
+    "Big Data/Chap3/MapReduce.md",
+    "Big Data/Chap2/Data streaming.md",
+    "Big Data/Chap1/Introduction.md",
     "Data warehouse/pipeline.canvas",
     "Data warehouse/Pre-training Multi-task Contrastive Learning Models for Scientific Literature Understanding.md",
     "Data warehouse/PMC-Patients Clinical Decision Support with Patient Summaries.md",
     "Computer vision/CycleGan.md",
     "Data warehouse/Ý tưởng dự án PAR (Patient–Article Retrieval trong PMC).md",
-    "Computer vision/4_5_1_Feature.pdf",
-    "Computer vision/4_5_2_Corners.pdf",
-    "Computer vision/4_5_3_DescribeMatch.pdf",
-    "Computer vision/4_5_3DescribeMatch.pdf",
-    "Computer vision/4_5_2Corners.pdf",
     "().md",
     "Data warehouse/Chương 1/Chương 1 Tổng quan.md",
     "Data warehouse/Chương 1/Chương 1.canvas",

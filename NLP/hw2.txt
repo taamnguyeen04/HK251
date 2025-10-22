@@ -1,0 +1,24 @@
+Home Exercise on Logistic Regression
+Task Description
+Implement a logistic regression model using gradient descent, Adam, or any other optimization method to optimize the parameters.
+
+You are only allowed to use computational libraries such as NumPy, Math, etc for implementing the model and training process.
+You must not use machine learning libraries or frameworks like scikit-learn, TensorFlow, PyTorch, etc. that provide pre-built models.
+For other tasks (e.g., data processing, visualization), you are free to use any library.
+After implementing the model, use it to solve the following problem: Titanic - Machine Learning from Disaster (https://www.kaggle.com/competitions/titanic/)
+
+Submission Guidelines
+Submit only one Jupyter Notebook file named `StudentID_HEX_Lab6_2.ipynb` that:
+Handles all tasks, including data downloading, preprocessing, model training and 
+Generates a CSV result file.
+Image of the submission results on Kaggle.
+Important:
+Submissions not following the guidelines will receive a score of 0.
+The model’s accuracy must be at least 65%, and the instructor will re-submit your result file to verify model integrity.
+Grading Criteria
+For valid submissions, scores will be assigned based on the leaderboard ranking (strictly greater):
+
+Top 25% → 10 points
+25% - 50% → 9.0 points
+50% - 75% → 8.0 points
+75% - 100% → 7.0 points
