@@ -42,14 +42,12 @@
             "id": "d6e03a663f967795",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Computer vision/C3/Image Derivatives.md",
-                "mode": "source",
-                "source": false
+                "file": "Big Data/test2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Image Derivatives"
+              "icon": "lucide-file-text",
+              "title": "test2"
             }
           }
         ],
@@ -203,17 +201,17 @@
   },
   "active": "d6e03a663f967795",
   "lastOpenFiles": [
+    "Computer vision/C4/4_5_1_Feature.pdf",
+    "Computer vision/C3/Image Derivatives.md",
     "Computer vision/C2/Gaussian Filter.md",
     "Computer vision/C2/Correlation vs Convolution.md",
     "Computer vision/C2/02_LocalProcessing.md",
-    "Computer vision/C4/4_5_1_Feature.pdf",
     "Computer vision/C3/03_ImageDerivatives.pdf",
     "Computer vision/C4/4_5_2_Corners.pdf",
     "Computer vision/C7/Image-ODS.pdf",
     "Computer vision/C6/geometric_transformations.pdf",
     "Computer vision/C4/4_5_3_DescribeMatch.pdf",
     "Computer vision/C2/02_LocalProcessing.pdf",
-    "Computer vision/C3/Image Derivatives.md",
     "Computer vision/C1/01_Introduction.pdf",
     "FEG/Ý tưởng  FACIAL EMOTION GENERATION.md",
     "Data warehouse/Chương 1/Chương 1 Tổng quan.md",
