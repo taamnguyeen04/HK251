@@ -28,26 +28,38 @@
             "id": "faafe0517b1d0460",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Computer vision/C2/Correlation vs Convolution.md",
-                "mode": "source",
-                "source": false
+                "file": "Computer vision/C3/03_ImageDerivatives.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Correlation vs Convolution"
+              "icon": "lucide-file-text",
+              "title": "03_ImageDerivatives"
+            }
+          },
+          {
+            "id": "a1192d97d51e2eea",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Computer vision/C4/4_5_2_Corners.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "4_5_2_Corners"
             }
           },
           {
             "id": "d6e03a663f967795",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Big Data/test2.pdf"
+                "file": "Computer vision/C4/Sobel.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "test2"
+              "icon": "lucide-file",
+              "title": "Sobel"
             }
           }
         ],
@@ -199,19 +211,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "d6e03a663f967795",
+  "active": "a1192d97d51e2eea",
   "lastOpenFiles": [
     "Computer vision/C4/4_5_1_Feature.pdf",
+    "Computer vision/C4/Sobel.md",
+    "Computer vision/C3/03_ImageDerivatives.pdf",
+    "Computer vision/C4/Edges and Lines.md",
     "Computer vision/C3/Image Derivatives.md",
-    "Computer vision/C2/Gaussian Filter.md",
+    "Computer vision/C2/02_LocalProcessing.pdf",
     "Computer vision/C2/Correlation vs Convolution.md",
     "Computer vision/C2/02_LocalProcessing.md",
-    "Computer vision/C3/03_ImageDerivatives.pdf",
+    "Computer vision/C2/Gaussian Filter.md",
+    "Big Data/test2.pdf",
     "Computer vision/C4/4_5_2_Corners.pdf",
     "Computer vision/C7/Image-ODS.pdf",
     "Computer vision/C6/geometric_transformations.pdf",
     "Computer vision/C4/4_5_3_DescribeMatch.pdf",
-    "Computer vision/C2/02_LocalProcessing.pdf",
     "Computer vision/C1/01_Introduction.pdf",
     "FEG/Ý tưởng  FACIAL EMOTION GENERATION.md",
     "Data warehouse/Chương 1/Chương 1 Tổng quan.md",
@@ -232,8 +247,6 @@
     "FEG/image/Pasted image 20250423153105.png",
     "FEG/image/Pasted image 20250423151101.png",
     "FEG/image/Pasted image 20250416182503.png",
-    "image/image",
-    "Computer vision/C4/Edges and Lines.md",
     "Big Data/Chap3/Spark.md",
     "Computer vision/02_LocalProcessing.md",
     "Computer vision/C1/02_LocalProcessing.md",
