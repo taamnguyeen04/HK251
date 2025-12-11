@@ -90,3 +90,4 @@ Dù cùng một kho dữ liệu, cách sử dụng và mức độ chi tiết th
 - **Ý nghĩa:** DW là nền tảng cho BI, DSS, Data Mining, cung cấp cái nhìn toàn diện, dữ liệu chính xác, đáng tin cậy, hỗ trợ phân tích xu hướng và tích hợp dữ liệu.
 - **Vai trò:** Cầu nối giữa dữ liệu vận hành và phân tích, hỗ trợ các bộ phận quản lý từ ban giám đốc đến sản xuất, biến dữ liệu thô thành tri thức cho DSS.
 - **Ứng dụng:** Hỗ trợ ra quyết định ở ba cấp độ: tác nghiệp (chi tiết, hàng ngày), quản lý trung gian (tổng hợp, ngắn hạn), chiến lược (lịch sử, dài hạn).
+

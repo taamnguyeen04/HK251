@@ -1,4 +1,4 @@
-
+A increases pass 1 the contribution of sharpening process becomes less and less important 
 # Xử lý cục bộ trên ảnh
 
 ## 1. Khái niệm xử lý cục bộ
